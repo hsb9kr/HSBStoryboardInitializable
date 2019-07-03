@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSBStoryboardInitializable_Example' do
+  pod 'HSBStoryboardInitializable', :path => '../'
+
+  target 'HSBStoryboardInitializable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
